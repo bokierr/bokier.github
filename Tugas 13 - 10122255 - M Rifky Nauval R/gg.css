@@ -1,0 +1,14 @@
+.my-header{
+    background-image: url("Shukai-Japan-2022-47-2-1500x1000.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-headtext{
+    color: rgba(255, 255, 255, 0);
+    position: absolute;
+}

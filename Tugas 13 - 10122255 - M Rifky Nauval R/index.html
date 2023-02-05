@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="w3.css">
+    <link rel="stylesheet" type="text/css" href="gg.css">
+</head>
+
+<script>
+    function selectbar(section) {
+        let i;
+        let x = document.getElementsByClassName("section");
+
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        document.getElementById(section).style.display = "block";
+    }
+</script>
+
+<body>
+   <header class="my-header">
+        <div class="my-headtext">
+        </div>
+    </header>
+
+    <div class="w3-bar w3-black navbar">
+        <div class="button" style="display: grid; grid-template-columns: repeat(7, 1fr); justify-content: center; background-color: #191919; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+            <button class="w3-bar-item w3-button" onclick="selectbar('home')"><b>HOME</b></button>
+            <button class="w3-bar-item w3-button" onclick="selectbar('toyota')"><b>TOYOTA</b></button>
+            <button class="w3-bar-item w3-button" onclick="selectbar('mazda')"><b>MAZDA</b></button>
+            <button class="w3-bar-item w3-button" onclick="selectbar('honda')"><b>HONDA</b></button>
+            <button class="w3-bar-item w3-button" onclick="selectbar('mitsubishi')"><b>MITSUBISHI</b></button>
+            <button class="w3-bar-item w3-button" onclick="selectbar('subaru')"><b>SUBARU</b></button>
+        </div>
+    </div>
+
+    <div id="home" class="w3-container section" style="display: block;">
+        <center>
+            <br>
+            <h1>
+                <b>
+                    WELCOME
+                </b>
+            </h1>
+            <br>
+            <img class src="StanceNation-Japan-G-Edition-Odaiba-2016-23-4-1140x759.jpg" width="1000px">
+            </p>
+            <br>
+            <h2>
+                <b>
+                    JAPANESE DOMESTIC MARKET (JDM)
+                </b>
+            </h2>
+            <br>
+        </center>
+    </div>
+
+    <div id="toyota" class="my-toyota-bg w3-container w3-animate-top section" style="display: none;">
+        <center>
+            <br>
+            <h1>
+                <b>
+                    TOYOTA SUPRA MK4
+                </b>
+            </h1>
+            <br>
+            <img class src="Shukai-Japan-2022-75-2-1500x1000.jpg" width="1000px">
+            <br>
+            <p style="font-family:Arial, Helvetica, sans-serif ;">
+                Supra berkode JZA80 ini jauh lebih hebat dari model sebelumnya. Mesin yang digunakan adalah 2JZ-GE atau 2JZ-GTE turbo berkapasitas 3000 cc. Model yang paling kencang adalah turbo dengan transmisi manual 6 speed, dan mampu dipacu hingga lebih dari 270 km/jam. Supra juga tersedia dengan atap Targa Roof yang bisa dibuka. Spoiler belakang yang tinggi standard pada model turbo, atau optional pada model non-turbo. Pada tahun 1997 diluncurkan Supra 15th Anniversary Edition dalam jumlah yang terbatas. Model tahun 1998 merupakan Supra terakhir di Amerika Serikat, dan produksi Supra di Jepang dihentikan pada tahun 2002.
+            </p>
+        </center>
+    </div>
+
+    <div id="mazda" class="w3-container w3-animate-left section" style="display: none;">
+        <center>
+            <br>
+            <h1>
+                <b>
+                    MAZDA RX-7 FD
+                </b>
+            </h1>
+            <br>
+            <img class src="rx7 stancenation.jpg" width="1000px">
+            <br>
+            <p style="font-family: Arial, Helvetica, sans-serif;">
+                Mazda RX-7 adalah mobil sport yang diproduksi oleh Mazda tahun 1978 sampai 2002. RX-7 pada awalnya menggunakan mesin wankel rotari berkapasitas silinder 1.146 cc (69,9 cu in) dengan penggerak roda belakang. RX-7 menggantikan RX-3. RX-7 awalnya adalah mobil sport dengan lampu utama tersembunyi dan hanya tersedia dengan versi coupé 2 kursi.
+            </p>
+        </center>
+    </div>
+
+    <div id="honda" class="w3-container w3-animate-right section" style="display: none;">
+        <center>
+            <br>
+            <h1>
+                <b>
+                    HONDA CIVIC FERIO TYPE R HATCHBACK
+                </b>
+            </h1>
+            <br>
+            <img src="civic.jpg" width="1000px">
+            <br>
+            <p style="font-family: Arial, Helvetica, sans-serif;">
+                Generasi keenam Honda Civic diperkenalkan tahun 1995. Dua wagon lain juga dibuat bersama dengan platform mobil ini, yaitu Orthia di Jepang serta Civic Aerodeck di Eropa. Mobil ini memenangkan penghargaan Car of the Year Japan untuk ketiga kalinya
+            </p>
+        </center>
+    </div>
+
+    <div id="mitsubishi" class="w3-container w3-animate-top section" style="display: none;">
+        <center>
+            <br>
+            <h1>
+                <b>
+                    MITSUBISHI EVO IX
+                </b>
+            </h1>
+            <br>
+            <img src="StanceNation-Japan-G-Edition-Odaiba-2016-7-4-1140x759.jpg" width="1000px">
+            <br>
+            <p style="font-family: Arial, Helvetica, sans-serif;">
+                Mitsubishi Lancer Evolution IX dikenalkan di Jepang pada 3 Maret 2005 di ajang Geneva Motor Show. Lalu generasi 10 juga lahir pada tahun yang sama saat Mitsubishi memperkenalkan Lancer Evolution dengan konsep baru di ajang Tokyo Motor Show. Mobil ini kemudian diberi nama Concept-X yang didesain Omer Halilhodzic, perusahaan desain asal Eropa. Model ini dibenamkan mesin anyar berkode 4B11T berkapasitas 2.0L turbocharged, all-aluminium inline-4 engine. Tenaga mobil diketahui bervariasi sesuai dengan pasar yang dituju.
+            </p>
+        </center>
+    </div>
+
+    <div id="subaru" class="w3-container w3-animate-bottom section" style="display: none;">
+        <center>
+            <br>
+            <h1>
+                <b>
+                    SUBARU IMPREZA
+                </b>
+            </h1>
+            <br>
+            <img src="StanceNation-Japan-G-Edition-Odaiba-2016-324-1140x761.jpg" width="1000px">
+            <br>
+            <p style="font-family: Arial, Helvetica, sans-serif;">
+                Subaru Impreza adalah mobil kompak berkarakter sport yang diproduksi oleh Subaru dari perusahaan Fuji Heavy Industries (FHI), Jepang. Impreza pertama kali diluncurkan di Jepang pada akhir tahun 1992, dan mulai masuk pasar ekspor pada tahun 1993. Semua Impreza menggunakan mesin 4 silinder dengan konfigurasi Boxer. Pada umumnya Impreza berpenggerak 4WD Symmetrical All Wheel Drive, meskipun ada versi yang lebih murah dengan penggerak roda depan.
+                Subaru Impreza yang berkemampuan tinggi adalah WRX yang sangat popular di arena kejuaraan rally dunia / World Rally Championship (WRC). Dengan warna biru yang khas, Impreza untuk WRC dipersiapkan oleh Subaru Technica International (STI) bersama Prodrive dari Inggris. Secara resmi Subaru Impreza ikut WRC dari tahun 1993 sampai 2008.
+            </p>
+        </center>
+
+       
+</body>
+
+</html>
